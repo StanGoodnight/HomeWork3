@@ -79,7 +79,7 @@ int in3days = perDay * 3;
 System.out.println("За 3 дня машина произвела - " + in3days + " штук бутылок.");
 
 int inMonth = perDay * 30;
-System.out.println("За 1 месяц машина произвела - " + inMonth + " штук бутылок.");
+System.out.println("За месяц машина произвела - " + inMonth + " штук бутылок.");
 
 byte whitePaintFor1stGrade = 2;
 System.out.println("Белой краски на 1 класс - " + whitePaintFor1stGrade + ".");
