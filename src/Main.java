@@ -103,5 +103,53 @@ int totalCansOfBrownPaint = totalClasses * brownPaintFor1stGrade;
 System.out.println("Всего купили - " + totalCansOfBrownPaint + " банок коричневой краски.");
 
 System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalCansOfWhitePaint + " банок белой краски и " + totalCansOfBrownPaint + " банок коричневой краски.");
+
+byte bananaWeight = 80;
+System.out.println("Вес 1 банана - " + bananaWeight + " грамм.");
+
+byte totalBananas = 5;
+System.out.println("Всего бананов - " + totalBananas + " штук.");
+
+int weightOfAllBananas = totalBananas * bananaWeight;
+System.out.println("Вес всех бананов - " + weightOfAllBananas + " грамм");
+
+byte milkWeight100milliliters = 105;
+System.out.println("Вес молока (100 мл) - " + milkWeight100milliliters + "грамм.");
+
+byte totalMilk = 2;
+System.out.println("Всего молока - " + totalMilk + " порции.");
+
+int totalWeightOfMilk = milkWeight100milliliters * totalMilk;
+System.out.println("Общиий вес молока - " + totalWeightOfMilk + " грамм.");
+
+byte iceCreamWeight = 100;
+System.out.println("Вес 1 брикета мороженного - " + iceCreamWeight + " грамм.");
+
+byte totalIceCream = 2;
+System.out.println("Всего брикетов мороженного - " + totalIceCream + " штук.");
+
+int totalWeightOfIceCream = iceCreamWeight * totalIceCream;
+System.out.println("Общий вес мороженного - " + totalWeightOfIceCream + " грамм");
+
+byte rawEggs = 70;
+System.out.println("Вес 1 сырого яйца - " + 70 + " грамм.");
+
+byte totalRawEggs = 4;
+System.out.println("Всего сырых яиц - " + totalRawEggs + " штук.");
+
+int totalWeightRawEggs = rawEggs * totalRawEggs;
+System.out.println("Общий вес сырых яиц - " + totalWeightRawEggs + " грамм.");
+
+int sportsBreakfastWeight = weightOfAllBananas + totalWeightOfMilk + totalWeightRawEggs + totalWeightOfIceCream;
+System.out.println("Вес спортзавтрака - " + sportsBreakfastWeight + " грамм.");
+
+float weightOfSportsBreakfastInKilograms = sportsBreakfastWeight / 1000f;
+System.out.println("Вес спортзавтрака - " + weightOfSportsBreakfastInKilograms + " килограмм.");
+
+byte needToReset = 7;
+System.out.println("Нужно сбросить - " + needToReset + " кг.");
+
+
+
     }
 }
